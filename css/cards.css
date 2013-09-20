@@ -1,7 +1,6 @@
 #cont_left, #cont_right {
   float: left;
-  width: 580px;
-  overflow: hidden; }
+  width: 600px; }
 
-.img_cont {
-  width: 550px; }
+.clear {
+  clear: both; }
