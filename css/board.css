@@ -1,54 +1,29 @@
 #board_full {
   width: 1168px;
-  height: 1168px; }
-
-#left_top {
-  background-color: #D5E8D4;
-  width: 224px;
-  height: 224px;
-  float: left;
-  border: 3px solid black; }
-
-#right_top {
-  background-color: #D5E8D4;
-  width: 224px;
-  height: 224px;
-  float: left;
-  display: inline-block;
-  border: 3px solid black; }
-
-#right_bottom {
-  background-color: #D5E8D4;
-  width: 224px;
-  height: 224px;
-  float: left;
-  border: 3px solid black; }
-
-#left_bottom {
-  background-color: #D5E8D4;
-  width: 224px;
-  height: 224px;
-  float: left;
-  border: 3px solid black; }
-
-.vertical {
-  background-color: #D5E8D4;
-  float: left; }
-  .vertical tr > td {
+  height: 1168px;
+  border: 10px solid red; }
+  #board_full ul > li #top_row_left {
+    width: 224px;
+    height: 224px;
+    float: left;
+    background-image: url(http://placekitten.com/224/224); }
+  #board_full ul > li .top_row {
     width: 112px;
-    height: 222px;
-    border: 3px solid black; }
-
-.horizontal {
-  background-color: #D5E8D4;
-  float: left; }
-  .horizontal tr > td {
-    width: 222px;
+    height: 224px;
+    float: left;
+    background-image: url(http://placekitten.com/112/224); }
+  #board_full ul > li #top_row_right {
+    width: 224px;
+    height: 224px;
+    float: right;
+    background-image: url(http://placekitten.com/224/224); }
+  #board_full ul > li #second_row_left {
+    width: 224px;
     height: 112px;
-    border: 3px solid black; }
-
-#center_board {
-  width: 690px;
-  height: 690px;
-  float: left;
-  border: 3px solid black; }
+    float: left;
+    background-image: url(http://placekitten.com/224/112); }
+  #board_full ul > li #second_row_right {
+    width: 224px;
+    height: 112px;
+    float: left;
+    background-image: url(http://placekitten.com/224/112); }
