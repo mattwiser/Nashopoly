@@ -3,16 +3,15 @@
   %head
     %meta{charset: 'utf-8'}
     %title Nashopoly
-    %link{rel: 'stylesheet', href: 'css/normalize.css'}
+    %link{rel: 'stylesheet', href: '../css/reset.css'}
     %link{rel: 'stylesheet', href: '../css/board.css'}
+    %link{rel: 'stylesheet', href: '../css/style.css'}
   %body
     %header
       #logo
         %img{src: '#'}
     %nav
       %ul
-        %li
-          %a{href: '#'} Home
         %li
           %a{href: '#'} Board
         %li
@@ -24,53 +23,57 @@
         %li
           %a{href: '#'} Contact Us
 
-    #left_top
-    %table{class: 'vertical'}
-      %tr
-        %td
-        %td
-        %td
-        %td
-        %td
-        %td
+    #board_full
+      #left_top
+      %table{class: 'vertical'}
+        %tr
+          %td
+          %td
+          %td
+          %td
+          %td
+          %td
+      #right_top
+      %table{class: 'horizontal'}
+        %tr
+          %td
+        %tr
+          %td
+        %tr
+          %td
+        %tr
+          %td
+        %tr
+          %td
+        %tr
+          %td
 
-    #right_top
-    %table{class: 'horizontal'}
-      %tr
-        %td
-      %tr
-        %td
-      %tr
-        %td
-      %tr
-        %td
-      %tr
-        %td
-      %tr
-        %td
-    #right_bottom
-    %table{class: 'vertical'}
-      %tr
-        %td
-        %td
-        %td
-        %td
-        %td
-        %td
-    #left_bottom
-    %table{class: 'horizontal'}
-      %tr
-        %td
-      %tr
-        %td
-      %tr
-        %td
-      %tr
-        %td
-      %tr
-        %td
-      %tr
-        %td
+      %img{id: 'center_board', src: '#'}
+
+      %table{class: 'horizontal'}
+        %tr
+          %td
+        %tr
+          %td
+        %tr
+          %td
+        %tr
+          %td
+        %tr
+          %td
+        %tr
+          %td
+      #left_bottom
+      %table{class: 'vertical'}
+        %tr
+          %td
+          %td
+          %td
+          %td
+          %td
+          %td
+      #right_bottom
+
     %footer
       %small Nashopoly &copy; 2013
 
