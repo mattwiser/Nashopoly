@@ -1,6 +1,7 @@
 html {
   background: url("../images/background.png") no-repeat;
-  background-size: 100%; }
+  background-size: 100%;
+  font-family: 'Helvetica'; }
 
 #outside_wrapper {
   width: 984px;
@@ -47,6 +48,7 @@ nav ul {
   background-image: -o-linear-gradient(bottom, #1e5da5 0%, #194b82 100%);
   background-image: -ms-linear-gradient(bottom, #1e5da5 0%, #194b82 100%);
   background-image: linear-gradient(bottom, #1e5da5 0%, #194b82 100%);
+  transition: background-image .5s, border .5s;
   border: 3px solid #174d92; }
   .nav_button1:hover {
     background-image: #007ee8;
@@ -66,7 +68,18 @@ nav ul {
   background-image: -o-linear-gradient(bottom, #ca2a2d 0%, #8f1d1f 100%);
   background-image: -ms-linear-gradient(bottom, #ca2a2d 0%, #8f1d1f 100%);
   background-image: linear-gradient(bottom, #ca2a2d 0%, #8f1d1f 100%);
+  transition: background-image .5s, border .5s;
   border: 3px solid #ca2a2d; }
+  .nav_button2:hover {
+    background-image: #ef0000;
+    background-image: -webkit-linear-gradient(bottom, red 0%, #df0000 100%);
+    background-image: -moz-linear-gradient(bottom, red 0%, #df0000 100%);
+    background-image: -o-linear-gradient(bottom, red 0%, #df0000 100%);
+    background-image: -ms-linear-gradient(bottom, red 0%, #df0000 100%);
+    background-image: linear-gradient(bottom, red 0%, #df0000 100%);
+    border: 3px solid #ff0000; }
+    .nav_button2:hover a {
+      color: black; }
 
 .nav_button3 {
   background-image: #cbb92f;
@@ -75,7 +88,18 @@ nav ul {
   background-image: -o-linear-gradient(top, #b7a72c 0%, #dfca31 100%);
   background-image: -ms-linear-gradient(top, #b7a72c 0%, #dfca31 100%);
   background-image: linear-gradient(top, #b7a72c 0%, #dfca31 100%);
+  transition: background-image .5s, border .5s;
   border: 3px solid #e6cf32; }
+  .nav_button3:hover {
+    background-image: #f7ed03;
+    background-image: -webkit-linear-gradient(bottom, #fffe00 0%, #eedb05 100%);
+    background-image: -moz-linear-gradient(bottom, #fffe00 0%, #eedb05 100%);
+    background-image: -o-linear-gradient(bottom, #fffe00 0%, #eedb05 100%);
+    background-image: -ms-linear-gradient(bottom, #fffe00 0%, #eedb05 100%);
+    background-image: linear-gradient(bottom, #fffe00 0%, #eedb05 100%);
+    border: 3px solid #fff00; }
+    .nav_button3:hover a {
+      color: black; }
 
 .nav_button4 {
   background-image: #37761f;
@@ -84,7 +108,18 @@ nav ul {
   background-image: -o-linear-gradient(bottom, #3d8522 0%, #30671c 100%);
   background-image: -ms-linear-gradient(bottom, #3d8522 0%, #30671c 100%);
   background-image: linear-gradient(bottom, #3d8522 0%, #30671c 100%);
+  transition: background-image .5s, border .5s;
   border: 3px solid #3f8923; }
+  .nav_button4:hover {
+    background-image: #00ba1d;
+    background-image: -webkit-linear-gradient(bottom, #00cc1e 0%, #00a71b 100%);
+    background-image: -moz-linear-gradient(bottom, #00cc1e 0%, #00a71b 100%);
+    background-image: -o-linear-gradient(bottom, #00cc1e 0%, #00a71b 100%);
+    background-image: -ms-linear-gradient(bottom, #00cc1e 0%, #00a71b 100%);
+    background-image: linear-gradient(bottom, #00cc1e 0%, #00a71b 100%);
+    border: 3px solid #00cf20; }
+    .nav_button4:hover a {
+      color: black; }
 
 .nav_button5 {
   background-image: #d26a27;
@@ -93,7 +128,18 @@ nav ul {
   background-image: -o-linear-gradient(bottom, #e57b27 0%, #bf5927 100%);
   background-image: -ms-linear-gradient(bottom, #e57b27 0%, #bf5927 100%);
   background-image: linear-gradient(bottom, #e57b27 0%, #bf5927 100%);
+  transition: background-image .5s, border .5s;
   border: 3px solid #dc692f; }
+  .nav_button5:hover {
+    background-image: #ffa807;
+    background-image: -webkit-linear-gradient(bottom, #ffc100 0%, #ff8e0d 100%);
+    background-image: -moz-linear-gradient(bottom, #ffc100 0%, #ff8e0d 100%);
+    background-image: -o-linear-gradient(bottom, #ffc100 0%, #ff8e0d 100%);
+    background-image: -ms-linear-gradient(bottom, #ffc100 0%, #ff8e0d 100%);
+    background-image: linear-gradient(bottom, #ffc100 0%, #ff8e0d 100%);
+    border: 3px solid #ffa55c; }
+    .nav_button5:hover a {
+      color: black; }
 
 #main .video {
   height: 600px;
