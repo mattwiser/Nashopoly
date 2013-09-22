@@ -1,5 +1,5 @@
 html {
-  background: url("../images/background.png") no-repeat;
+  background: url("../images/background.png") repeat-y;
   background-size: 100%;
   font-family: 'Helvetica'; }
 
@@ -145,3 +145,6 @@ nav ul {
   height: 600px;
   width: 800px;
   margin: 0 auto; }
+
+.clear {
+  clear: both; }
