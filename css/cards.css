@@ -1,6 +1,18 @@
-#cont_left, #cont_right {
+#cont_left {
   float: left;
-  width: 600px; }
+  width: 450px;
+  margin: 0 auto;
+  text-align: center; }
+
+#cont_right {
+  float: right;
+  width: 450px;
+  margin: 0 auto;
+  text-align: center; }
 
 .clear {
   clear: both; }
+
+img {
+  width: 400px;
+  height: auto; }
