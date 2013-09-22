@@ -1,7 +1,9 @@
+
 #board_full {
   width: 1152px;
   height: 1152px;
-  margin: 10px;
+  margin: auto;
+  text-align: center;
   ul > li {
     .clear {
       clear: both;
@@ -115,7 +117,7 @@
       height: 112px;
       float: right;
       border: 2px solid black;
-      background-image: url(http://placekitten.com/224/112)
+      background-image: url(../images/MTA.png)
     }
     #bottom_row_left {
       width: 224px;
@@ -129,7 +131,7 @@
       height: 224px;
       float: left;
       border: 2px solid black;
-      background-image: url(http://placekitten.com/112/224)
+      background-image: url(../images/chance_tile.png)
     }
     #bottom_row_right {
       width: 224px;
