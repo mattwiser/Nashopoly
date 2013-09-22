@@ -1,3 +1,9 @@
+nav {
+  ul {
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+}
 
 #board_full {
   width: 1152px;
@@ -15,13 +21,49 @@
       border: 2px solid black;
       background-image: url(http://placekitten.com/224/224);
     }
-    .top_row {
+    #top_row1 {
       width: 112px;
       height: 224px;
       float: left;
       border: 2px solid black;
-      background-image: url(http://placekitten.com/112/224)
+      background-image: url(../images/purple1.png)
     }
+    #top_row2 {
+      width: 112px;
+      height: 224px;
+      float: left;
+      border: 2px solid black;
+      background-image: url(../images/purple2.png)
+    }
+    #top_row3 {
+      width: 112px;
+      height: 224px;
+      float: left;
+      border: 2px solid black;
+      background-image: url(../images/MTA.png)
+    }
+    #top_row4 {
+      width: 112px;
+      height: 224px;
+      float: left;
+      border: 2px solid black;
+      background-image: url(../images/babyblue1.png)
+    }
+    #top_row5 {
+      width: 112px;
+      height: 224px;
+      float: left;
+      border: 2px solid black;
+      background-image: url(../images/chance_tile.png)
+    }
+    #top_row6 {
+      width: 112px;
+      height: 224px;
+      float: left;
+      border: 2px solid black;
+      background-image: url(../images/babyblue2.png)
+    }
+
     #top_row_right {
       width: 224px;
       height: 224px;
@@ -34,7 +76,7 @@
       height: 112px;
       float: left;
       border: 2px solid black;
-      background-image: url(http://placekitten.com/224/112)
+      background-image: url(../images/blue1.png)
     }
     #first_row_right {
       width: 224px;
