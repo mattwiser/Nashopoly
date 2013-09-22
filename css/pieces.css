@@ -12,8 +12,9 @@
   clear: both; }
 
 #outside_wrapper #wrapper #main #cont_left img {
-  width: 400px;
+  width: 200px;
   height: auto; }
-#outside_wrapper #wrapper #main #cont_left #cont_right img {
-  width: 400px;
+
+#outside_wrapper #wrapper #main #cont_right .img_cont img {
+  width: 200px;
   height: auto; }
