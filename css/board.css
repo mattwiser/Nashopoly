@@ -68,13 +68,13 @@ nav ul {
     height: 112px;
     float: right;
     border: 2px solid black;
-    background-image: url(http://placekitten.com/224/112); }
+    background-image: url(../images/pink1.png); }
   #board_full ul > li #second_row_left {
     width: 224px;
     height: 112px;
     float: left;
     border: 2px solid black;
-    background-image: url(http://placekitten.com/224/112); }
+    background-image: url(../images/community_tile2.png); }
   #board_full ul > li #second_row_right {
     width: 224px;
     height: 112px;
