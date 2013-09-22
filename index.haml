@@ -6,23 +6,31 @@
     %link{rel: 'stylesheet', href: 'css/normalize.css'}
     %link{rel: 'stylesheet', href: 'css/style.css'}
   %body
+  #wrapper
     %header
-      #logo
-        %img{src: '#'}
+      %img{src: 'images/Header.png'}
     %nav
       %ul
         %li
-          %a{href: '#'} Board
+          .nav_button1
+            %a{href: 'html/board.html'} Board
         %li
-          %a{href: '#'} Pieces
+          .nav_button2
+            %a{href: 'html/pieces.html'} Pieces
         %li
-          %a{href: '#'} Cards
+          .nav_button3
+            %a{href: 'html/cards.html'} Cards
         %li
-          %a{href: '#'} FAQ
+          .nav_button4
+            %a{href: 'html/faq.html'} FAQ
         %li
-          %a{href: '#'} Contact Us
-    %footer
-      %small Nashopoly &copy; 2013
+          .nav_button5
+            %a{href: 'html/contact.html'} Contact Us
+      #main
+        .video
+          %iframe{width:'420',height:'315',src:'http://www.youtube.com/embed/0nXbCnGL-TY?rel=0',frameborder:'0'}
+      %footer
+        %small Nashopoly &copy; 2013
 
 
 
