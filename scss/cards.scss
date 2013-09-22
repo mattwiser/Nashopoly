@@ -17,7 +17,13 @@
   clear: both;
 }
 
-img {
+body > #outside_wrapper > #wrapper > #content > #cont_left > img {
+  width: 400px;
+  height: auto;
+}
+
+
+body > #outside_wrapper > #wrapper > #content > #cont_right > img {
   width: 400px;
   height: auto;
 }
