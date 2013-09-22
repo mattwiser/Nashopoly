@@ -1,7 +1,7 @@
 #board_full {
   width: 1152px;
   height: 1152px;
-  margin: auto;
+  margin: 10px auto;
   text-align: center; }
   #board_full ul > li .clear {
     clear: both; }
