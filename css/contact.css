@@ -8,7 +8,15 @@
   padding: 10px; }
 #content p {
   float: left;
-  padding: 10px;
-  width: 280px; }
+  padding: 10px; }
   #content p:nth-of-type(1) {
     margin-left: 35px; }
+
+.matthew, .katie, .anthony {
+  width: 300px;
+  float: left;
+  background-color: blue;
+  margin: 5px; }
+
+.matthew {
+  margin-left: 20px; }
