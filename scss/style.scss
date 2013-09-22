@@ -1,7 +1,8 @@
 
-body {
-  background:url('../images/background.png');
-  background-size: 100%;}
+html {
+  background:url('../images/background.png') no-repeat;
+  background-size:100%;
+}
 
 #outside_wrapper {
   width: 984px;
@@ -74,6 +75,23 @@ header
     background-image: linear-gradient(bottom, #1e5da5 0%, #194b82 100%);
 
     border:3px solid rgb(23, 77, 146);
+
+    &:hover {
+    background-image: #007ee8;
+    background-image: -webkit-linear-gradient(bottom, #0088ff 0%, #0074d0 100%);
+    background-image: -moz-linear-gradient(bottom, #0088ff 0%, #0074d0 100%);
+    background-image: -o-linear-gradient(bottom, #0088ff 0%, #0074d0 100%);
+    background-image: -ms-linear-gradient(bottom, #0088ff 0%, #0074d0 100%);
+    background-image: linear-gradient(bottom, #0088ff 0%, #0074d0 100%);
+
+    border: 3px solid #0078e9;
+
+
+
+        a{
+          color: black;
+        }
+    }
 
 
 }

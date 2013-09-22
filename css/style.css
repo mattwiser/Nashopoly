@@ -1,5 +1,5 @@
-body {
-  background: url("../images/background.png");
+html {
+  background: url("../images/background.png") no-repeat;
   background-size: 100%; }
 
 #outside_wrapper {
@@ -40,6 +40,16 @@ nav ul {
   background-image: -ms-linear-gradient(bottom, #1e5da5 0%, #194b82 100%);
   background-image: linear-gradient(bottom, #1e5da5 0%, #194b82 100%);
   border: 3px solid #174d92; }
+  .nav_button1:hover {
+    background-image: #007ee8;
+    background-image: -webkit-linear-gradient(bottom, #0088ff 0%, #0074d0 100%);
+    background-image: -moz-linear-gradient(bottom, #0088ff 0%, #0074d0 100%);
+    background-image: -o-linear-gradient(bottom, #0088ff 0%, #0074d0 100%);
+    background-image: -ms-linear-gradient(bottom, #0088ff 0%, #0074d0 100%);
+    background-image: linear-gradient(bottom, #0088ff 0%, #0074d0 100%);
+    border: 3px solid #0078e9; }
+    .nav_button1:hover a {
+      color: black; }
 
 .nav_button2 {
   background-image: #ad2426;
