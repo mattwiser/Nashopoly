@@ -2,6 +2,14 @@ body {
   font-size: 12px;
 }
 
+h1 {
+    background-image: #ad2426;
+    background-image: -webkit-linear-gradient(bottom, #ca2a2d 0%, #8f1d1f 100%);
+    background-image: -moz-linear-gradient(bottom, #ca2a2d 0%, #8f1d1f 100%);
+    background-image: -o-linear-gradient(bottom, #ca2a2d 0%, #8f1d1f 100%);
+    background-image: -ms-linear-gradient(bottom, #ca2a2d 0%, #8f1d1f 100%);
+    background-image: linear-gradient(bottom, #ca2a2d 0%, #8f1d1f 100%);
+}
 .cont_left {
   display: block;
   float: left;

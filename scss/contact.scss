@@ -1,9 +1,15 @@
 h1 {
-  width: 940px;
-  margin: 10px;
-  border: 2px solid black;
-  background: orange;
-  color: white;
+    width: 940px;
+    margin: 10px;
+    border: 2px solid black;
+    background-image: #d26a27;
+    background-image: -webkit-linear-gradient(bottom, #e57b27 0%, #bf5927 100%);
+    background-image: -moz-linear-gradient(bottom, #e57b27 0%, #bf5927 100%);
+    background-image: -o-linear-gradient(bottom, #e57b27 0%, #bf5927 100%);
+    background-image: -ms-linear-gradient(bottom, #e57b27 0%, #bf5927 100%);
+    background-image: linear-gradient(bottom, #e57b27 0%, #bf5927 100%);;
+
+    color: white;
 }
 #content {
     h2 {

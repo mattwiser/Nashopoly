@@ -2,7 +2,12 @@ h1 {
   width: 940px;
   margin: 10px;
   border: 2px solid black;
-  background: yellow;
+  background-image: #cbb92f;
+  background-image: -webkit-linear-gradient(top, #b7a72c 0%, #dfca31 100%);
+  background-image: -moz-linear-gradient(top, #b7a72c 0%, #dfca31 100%);
+  background-image: -o-linear-gradient(top, #b7a72c 0%, #dfca31 100%);
+  background-image: -ms-linear-gradient(top, #b7a72c 0%, #dfca31 100%);
+  background-image: linear-gradient(top, #b7a72c 0%, #dfca31 100%);
   color: black; }
 
 #cont_left {
