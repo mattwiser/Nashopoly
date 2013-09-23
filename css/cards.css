@@ -1,3 +1,10 @@
+h1 {
+  width: 940px;
+  margin: 10px;
+  border: 2px solid black;
+  background: yellow;
+  color: black; }
+
 #cont_left {
   float: left;
   width: 450px;

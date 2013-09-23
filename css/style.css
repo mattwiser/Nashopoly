@@ -5,7 +5,7 @@ html {
 
 #outside_wrapper {
   width: 984px;
-  margin: 0 auto;
+  margin: 10px auto;
   border: 4px solid black;
   background: white; }
 
@@ -140,6 +140,14 @@ nav ul {
     border: 3px solid #ffa55c; }
     .nav_button5:hover a {
       color: black; }
+
+footer {
+  background-image: linear-gradient(left, #de2828 19%, #ff4242 60%, #ab2626 100%);
+  background-image: -o-linear-gradient(left, #de2828 19%, #ff4242 60%, #ab2626 100%);
+  background-image: -moz-linear-gradient(left, #de2828 19%, #ff4242 60%, #ab2626 100%);
+  background-image: -webkit-linear-gradient(left, #de2828 19%, #ff4242 60%, #ab2626 100%);
+  background-image: -ms-linear-gradient(left, #de2828 19%, #ff4242 60%, #ab2626 100%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0.19, #de2828), color-stop(0.6, #ff4242), color-stop(1, #ab2626)); }
 
 #main .video {
   height: 600px;
