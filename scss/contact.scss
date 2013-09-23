@@ -36,18 +36,32 @@ h1 {
 }
 
 
-  .matthew,.katie,.anthony {
 
+
+.matt_wrap, .katie_wrap, .anthony_wrap {
+
+  float: left;
+  margin: 5px;
+  width: 300px;
+  overflow: hidden;
+  text-align: center;
+  border:1px solid black;
+
+  h2 {
+    margin:0;
+    padding:0;
+    background-color:yellow;
+    border-bottom:1px solid black;
+  }
+
+  .matthew,.katie,.anthony {
+  width: 280px;
   background-color: blue;
   margin: 5px;
   overflow: hidden;
+  border:1px solid black;
 
-  h2 {
 
-  }
+}
 }
 
-.matt_wrap, .katie_wrap, .anthony_wrap {
-  width: 300px;
-  float: left;
-}

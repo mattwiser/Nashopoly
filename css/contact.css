@@ -19,11 +19,21 @@ h1 {
   #content p:nth-of-type(1) {
     margin-left: 35px; }
 
-.matthew, .katie, .anthony {
-  background-color: blue;
-  margin: 5px;
-  overflow: hidden; }
-
 .matt_wrap, .katie_wrap, .anthony_wrap {
+  float: left;
+  margin: 5px;
   width: 300px;
-  float: left; }
+  overflow: hidden;
+  text-align: center;
+  border: 1px solid black; }
+  .matt_wrap h2, .katie_wrap h2, .anthony_wrap h2 {
+    margin: 0;
+    padding: 0;
+    background-color: yellow;
+    border-bottom: 1px solid black; }
+  .matt_wrap .matthew, .matt_wrap .katie, .matt_wrap .anthony, .katie_wrap .matthew, .katie_wrap .katie, .katie_wrap .anthony, .anthony_wrap .matthew, .anthony_wrap .katie, .anthony_wrap .anthony {
+    width: 280px;
+    background-color: blue;
+    margin: 5px;
+    overflow: hidden;
+    border: 1px solid black; }
