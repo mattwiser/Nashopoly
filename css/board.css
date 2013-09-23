@@ -10,7 +10,9 @@ nav ul {
   #board_full #main_tile img {
     position: absolute;
     left: 256px;
-    top: 647px; }
+    top: 647px;
+    width: 696px;
+    height: 696px; }
   #board_full ul > li .clear {
     clear: both; }
   #board_full ul > li #top_row_left {
