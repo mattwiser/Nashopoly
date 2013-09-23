@@ -53,6 +53,8 @@ h1 {
     .matt_wrap .matthew img, .matt_wrap .katie img, .matt_wrap .anthony img, .katie_wrap .matthew img, .katie_wrap .katie img, .katie_wrap .anthony img, .anthony_wrap .matthew img, .anthony_wrap .katie img, .anthony_wrap .anthony img {
       margin-top: 6px;
       border: 1px solid black; }
+    .matt_wrap .matthew p, .matt_wrap .katie p, .matt_wrap .anthony p, .katie_wrap .matthew p, .katie_wrap .katie p, .katie_wrap .anthony p, .anthony_wrap .matthew p, .anthony_wrap .katie p, .anthony_wrap .anthony p {
+      padding: 6px; }
     .matt_wrap .matthew ul, .matt_wrap .katie ul, .matt_wrap .anthony ul, .katie_wrap .matthew ul, .katie_wrap .katie ul, .katie_wrap .anthony ul, .anthony_wrap .matthew ul, .anthony_wrap .katie ul, .anthony_wrap .anthony ul {
       padding: 0; }
       .matt_wrap .matthew ul li, .matt_wrap .katie ul li, .matt_wrap .anthony ul li, .katie_wrap .matthew ul li, .katie_wrap .katie ul li, .katie_wrap .anthony ul li, .anthony_wrap .matthew ul li, .anthony_wrap .katie ul li, .anthony_wrap .anthony ul li {

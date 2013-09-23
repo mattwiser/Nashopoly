@@ -8,7 +8,7 @@ h1 {
   background-image: -o-linear-gradient(top, #b7a72c 0%, #dfca31 100%);
   background-image: -ms-linear-gradient(top, #b7a72c 0%, #dfca31 100%);
   background-image: linear-gradient(top, #b7a72c 0%, #dfca31 100%);
-  color: black; }
+  color: white; }
 
 #cont_left {
   float: left;
