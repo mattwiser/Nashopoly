@@ -3,13 +3,21 @@ body {
 }
 
 .cont_left {
+  display: block;
   float: left;
   width: 400px;
-  height: 550px;
-  overflow: hidden;
   text-align: center;
-  p {
-    width: 400px;
+  vertical-align: center;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  .img_cont {
+    height: 300px;
+    border: 2px solid red;
+    margin-top: 5px;
+    p {
+      width: 400px;
+    }
   }
 }
 
@@ -18,26 +26,29 @@ body {
   display: block;
   float: right;
   width: 400px;
-  height: 500px;
-  overflow: hidden;
   text-align: center;
   vertical-align: center;
-  p {
-    width: 400px;
-  }
-  #cowboy {
-    padding-top: 60px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  .img_cont {
+    height: 300px;
+    border: 2px solid red;
+    margin-top: 5px;
+    p {
+      width: 400px;
+    }
   }
 }
 
 .cont_horizontal {
-  border-top: 1px dotted red;
   .img_horizontal {
-    width: 320px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    width: 314px;
+    height: 275px;
+    border: 2px solid red;
     float: right;
     text-align: center;
+    margin-right: 1px;
   }
 }
 
@@ -88,3 +99,4 @@ body {
       }
     }
   }
+
