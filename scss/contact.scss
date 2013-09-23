@@ -30,12 +30,17 @@
 
 
   .matthew,.katie,.anthony {
-  width: 300px;
-  float: left;
+
   background-color: blue;
   margin: 5px;
+  overflow: hidden;
+
+  h2 {
+
+  }
 }
 
-.matthew {
-  margin-left: 20px;
+.matt_wrap, .katie_wrap, .anthony_wrap {
+  width: 300px;
+  float: left;
 }

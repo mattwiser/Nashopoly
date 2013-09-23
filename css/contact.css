@@ -13,10 +13,10 @@
     margin-left: 35px; }
 
 .matthew, .katie, .anthony {
-  width: 300px;
-  float: left;
   background-color: blue;
-  margin: 5px; }
+  margin: 5px;
+  overflow: hidden; }
 
-.matthew {
-  margin-left: 20px; }
+.matt_wrap, .katie_wrap, .anthony_wrap {
+  width: 300px;
+  float: left; }
