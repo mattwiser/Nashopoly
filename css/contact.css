@@ -5,6 +5,8 @@ h1 {
   background: orange;
   color: white; }
 
+#content h2 {
+  text-align: center; }
 #content ul {
   text-align: center; }
   #content ul li {
@@ -22,18 +24,38 @@ h1 {
 .matt_wrap, .katie_wrap, .anthony_wrap {
   float: left;
   margin: 5px;
+  margin-bottom: 20px;
   width: 300px;
   overflow: hidden;
   text-align: center;
-  border: 1px solid black; }
+  border: 3px solid black; }
   .matt_wrap h2, .katie_wrap h2, .anthony_wrap h2 {
     margin: 0;
     padding: 0;
-    background-color: yellow;
-    border-bottom: 1px solid black; }
+    background-image: #1c5494;
+    background-image: -webkit-linear-gradient(bottom, #1e5da5 0%, #194b82 100%);
+    background-image: -moz-linear-gradient(bottom, #1e5da5 0%, #194b82 100%);
+    background-image: -o-linear-gradient(bottom, #1e5da5 0%, #194b82 100%);
+    background-image: -ms-linear-gradient(bottom, #1e5da5 0%, #194b82 100%);
+    background-image: linear-gradient(bottom, #1e5da5 0%, #194b82 100%);
+    border-bottom: 1px solid black;
+    color: white; }
   .matt_wrap .matthew, .matt_wrap .katie, .matt_wrap .anthony, .katie_wrap .matthew, .katie_wrap .katie, .katie_wrap .anthony, .anthony_wrap .matthew, .anthony_wrap .katie, .anthony_wrap .anthony {
     width: 280px;
-    background-color: blue;
-    margin: 5px;
+    margin: 5px auto;
     overflow: hidden;
     border: 1px solid black; }
+    .matt_wrap .matthew img, .matt_wrap .katie img, .matt_wrap .anthony img, .katie_wrap .matthew img, .katie_wrap .katie img, .katie_wrap .anthony img, .anthony_wrap .matthew img, .anthony_wrap .katie img, .anthony_wrap .anthony img {
+      margin-top: 6px;
+      border: 1px solid black; }
+    .matt_wrap .matthew ul, .matt_wrap .katie ul, .matt_wrap .anthony ul, .katie_wrap .matthew ul, .katie_wrap .katie ul, .katie_wrap .anthony ul, .anthony_wrap .matthew ul, .anthony_wrap .katie ul, .anthony_wrap .anthony ul {
+      padding: 0; }
+      .matt_wrap .matthew ul li, .matt_wrap .katie ul li, .matt_wrap .anthony ul li, .katie_wrap .matthew ul li, .katie_wrap .katie ul li, .katie_wrap .anthony ul li, .anthony_wrap .matthew ul li, .anthony_wrap .katie ul li, .anthony_wrap .anthony ul li {
+        display: inline-block;
+        padding: 0;
+        margin: 10px; }
+        .matt_wrap .matthew ul li a, .matt_wrap .katie ul li a, .matt_wrap .anthony ul li a, .katie_wrap .matthew ul li a, .katie_wrap .katie ul li a, .katie_wrap .anthony ul li a, .anthony_wrap .matthew ul li a, .anthony_wrap .katie ul li a, .anthony_wrap .anthony ul li a {
+          text-decoration: none; }
+
+.matt_wrap {
+  margin-left: 10px; }

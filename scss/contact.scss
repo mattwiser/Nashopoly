@@ -6,6 +6,10 @@ h1 {
   color: white;
 }
 #content {
+    h2 {
+      text-align: center;
+    }
+
     ul {
       text-align: center;
       li {
@@ -42,26 +46,56 @@ h1 {
 
   float: left;
   margin: 5px;
+  margin-bottom:20px;
   width: 300px;
   overflow: hidden;
   text-align: center;
-  border:1px solid black;
+  border:3px solid black;
 
   h2 {
     margin:0;
     padding:0;
-    background-color:yellow;
+    background-image: #1c5494;
+    background-image: -webkit-linear-gradient(bottom, #1e5da5 0%, #194b82 100%);
+    background-image: -moz-linear-gradient(bottom, #1e5da5 0%, #194b82 100%);
+    background-image: -o-linear-gradient(bottom, #1e5da5 0%, #194b82 100%);
+    background-image: -ms-linear-gradient(bottom, #1e5da5 0%, #194b82 100%);
+    background-image: linear-gradient(bottom, #1e5da5 0%, #194b82 100%);
+
     border-bottom:1px solid black;
+
+    color: white;
   }
 
   .matthew,.katie,.anthony {
   width: 280px;
-  background-color: blue;
-  margin: 5px;
+  margin: 5px auto;
   overflow: hidden;
   border:1px solid black;
 
+  img {
+    margin-top: 6px;
+    border:1px solid black;
+  }
+
+  ul {
+    padding: 0;
+    li {
+      display: inline-block;
+      padding:0;
+      margin: 10px;
+
+      a{
+        text-decoration: none;
+      }
+    }
+  }
+
 
 }
+}
+
+.matt_wrap {
+  margin-left: 10px;
 }
 
