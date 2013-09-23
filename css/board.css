@@ -7,6 +7,12 @@ nav ul {
   height: 1152px;
   margin: 10px auto;
   text-align: center; }
+  #board_full #main_tile img {
+    position: absolute;
+    left: 256px;
+    top: 647px;
+    width: 696px;
+    height: 696px; }
   #board_full ul > li .clear {
     clear: both; }
   #board_full ul > li #top_row_left {
@@ -68,79 +74,109 @@ nav ul {
     height: 112px;
     float: right;
     border: 2px solid black;
-    background-image: url(http://placekitten.com/224/112); }
+    background-image: url(../images/pink1.png); }
   #board_full ul > li #second_row_left {
     width: 224px;
     height: 112px;
     float: left;
     border: 2px solid black;
-    background-image: url(http://placekitten.com/224/112); }
+    background-image: url(../images/community_tile2.png); }
   #board_full ul > li #second_row_right {
     width: 224px;
     height: 112px;
     float: right;
     border: 2px solid black;
-    background-image: url(http://placekitten.com/224/112); }
+    background-image: url(../images/MTA2.png); }
   #board_full ul > li #third_row_left {
     width: 224px;
     height: 112px;
     float: left;
     border: 2px solid black;
-    background-image: url(http://placekitten.com/224/112); }
+    background-image: url(../images/blue2.png); }
   #board_full ul > li #third_row_right {
     width: 224px;
     height: 112px;
     float: right;
     border: 2px solid black;
-    background-image: url(http://placekitten.com/224/112); }
+    background-image: url(../images/pink3.png); }
   #board_full ul > li #fourth_row_left {
     width: 224px;
     height: 112px;
     float: left;
     border: 2px solid black;
-    background-image: url(http://placekitten.com/224/112); }
+    background-image: url(../images/green1.png); }
   #board_full ul > li #fourth_row_right {
     width: 224px;
     height: 112px;
     float: right;
     border: 2px solid black;
-    background-image: url(http://placekitten.com/224/112); }
+    background-image: url(../images/orange1.png); }
   #board_full ul > li #fifth_row_left {
     width: 224px;
     height: 112px;
     float: left;
     border: 2px solid black;
-    background-image: url(http://placekitten.com/224/112); }
+    background-image: url(../images/green2.png); }
   #board_full ul > li #fifth_row_right {
     width: 224px;
     height: 112px;
     float: right;
     border: 2px solid black;
-    background-image: url(http://placekitten.com/224/112); }
+    background-image: url(../images/community_tile.png); }
   #board_full ul > li #sixth_row_left {
     width: 224px;
     height: 112px;
     float: left;
     border: 2px solid black;
-    background-image: url(http://placekitten.com/224/112); }
+    background-image: url(../images/green3.png); }
   #board_full ul > li #sixth_row_right {
     width: 224px;
     height: 112px;
     float: right;
     border: 2px solid black;
-    background-image: url(../images/MTA.png); }
+    background-image: url(../images/orange2.png); }
   #board_full ul > li #bottom_row_left {
     width: 224px;
     height: 224px;
     float: left;
     border: 2px solid black;
     background-image: url(http://placekitten.com/224/224); }
-  #board_full ul > li .bottom_row {
+  #board_full ul > li #bottom_row1 {
     width: 112px;
     height: 224px;
     float: left;
     border: 2px solid black;
-    background-image: url(../images/chance_tile.png); }
+    background-image: url(../images/yellow1.png); }
+  #board_full ul > li #bottom_row2 {
+    width: 112px;
+    height: 224px;
+    float: left;
+    border: 2px solid black;
+    background-image: url(../images/yellow2.png); }
+  #board_full ul > li #bottom_row3 {
+    width: 112px;
+    height: 224px;
+    float: left;
+    border: 2px solid black;
+    background-image: url(../images/yellow3.png); }
+  #board_full ul > li #bottom_row4 {
+    width: 112px;
+    height: 224px;
+    float: left;
+    border: 2px solid black;
+    background-image: url(../images/chance_tile2.png); }
+  #board_full ul > li #bottom_row5 {
+    width: 112px;
+    height: 224px;
+    float: left;
+    border: 2px solid black;
+    background-image: url(../images/red1.png); }
+  #board_full ul > li #bottom_row6 {
+    width: 112px;
+    height: 224px;
+    float: left;
+    border: 2px solid black;
+    background-image: url(../images/red2.png); }
   #board_full ul > li #bottom_row_right {
     width: 224px;
     height: 224px;

@@ -10,6 +10,15 @@ nav {
   height: 1152px;
   margin: 10px auto;
   text-align: center;
+  #main_tile {
+    img {
+      position: absolute;
+      left: 256px;
+      top: 647px;
+      width: 696px;
+      height:696px;
+    }
+  }
   ul > li {
     .clear {
       clear: both;
@@ -83,7 +92,7 @@ nav {
       height: 112px;
       float: right;
       border: 2px solid black;
-      background-image: url(http://placekitten.com/224/112)
+      background-image: url(../images/pink1.png)
     }
 
     #second_row_left {
@@ -91,7 +100,7 @@ nav {
       height: 112px;
       float: left;
       border: 2px solid black;
-      background-image: url(http://placekitten.com/224/112)
+      background-image: url(../images/community_tile2.png)
 
     }
     #second_row_right {
@@ -99,14 +108,14 @@ nav {
       height: 112px;
       float: right;
       border: 2px solid black;
-      background-image: url(http://placekitten.com/224/112)
+      background-image: url(../images/MTA2.png)
     }
     #third_row_left {
       width: 224px;
       height: 112px;
       float: left;
       border: 2px solid black;
-      background-image: url(http://placekitten.com/224/112)
+      background-image: url(../images/blue2.png)
 
     }
     #third_row_right {
@@ -114,14 +123,14 @@ nav {
       height: 112px;
       float: right;
       border: 2px solid black;
-      background-image: url(http://placekitten.com/224/112)
+      background-image: url(../images/pink3.png)
     }
     #fourth_row_left {
       width: 224px;
       height: 112px;
       float: left;
       border: 2px solid black;
-      background-image: url(http://placekitten.com/224/112)
+      background-image: url(../images/green1.png)
 
     }
     #fourth_row_right {
@@ -129,14 +138,14 @@ nav {
       height: 112px;
       float: right;
       border: 2px solid black;
-      background-image: url(http://placekitten.com/224/112)
+      background-image: url(../images/orange1.png)
     }
     #fifth_row_left {
       width: 224px;
       height: 112px;
       float: left;
       border: 2px solid black;
-      background-image: url(http://placekitten.com/224/112)
+      background-image: url(../images/green2.png)
 
     }
     #fifth_row_right {
@@ -144,14 +153,14 @@ nav {
       height: 112px;
       float: right;
       border: 2px solid black;
-      background-image: url(http://placekitten.com/224/112)
+      background-image: url(../images/community_tile.png)
     }
     #sixth_row_left {
       width: 224px;
       height: 112px;
       float: left;
       border: 2px solid black;
-      background-image: url(http://placekitten.com/224/112)
+      background-image: url(../images/green3.png)
 
     }
     #sixth_row_right {
@@ -159,7 +168,7 @@ nav {
       height: 112px;
       float: right;
       border: 2px solid black;
-      background-image: url(../images/MTA.png)
+      background-image: url(../images/orange2.png)
     }
     #bottom_row_left {
       width: 224px;
@@ -168,12 +177,47 @@ nav {
       border: 2px solid black;
       background-image: url(http://placekitten.com/224/224);
     }
-    .bottom_row {
+    #bottom_row1 {
       width: 112px;
       height: 224px;
       float: left;
       border: 2px solid black;
-      background-image: url(../images/chance_tile.png)
+      background-image: url(../images/yellow1.png)
+    }
+    #bottom_row2 {
+      width: 112px;
+      height: 224px;
+      float: left;
+      border: 2px solid black;
+      background-image: url(../images/yellow2.png)
+    }
+    #bottom_row3 {
+      width: 112px;
+      height: 224px;
+      float: left;
+      border: 2px solid black;
+      background-image: url(../images/yellow3.png)
+    }
+    #bottom_row4 {
+      width: 112px;
+      height: 224px;
+      float: left;
+      border: 2px solid black;
+      background-image: url(../images/chance_tile2.png)
+    }
+    #bottom_row5 {
+      width: 112px;
+      height: 224px;
+      float: left;
+      border: 2px solid black;
+      background-image: url(../images/red1.png)
+    }
+    #bottom_row6 {
+      width: 112px;
+      height: 224px;
+      float: left;
+      border: 2px solid black;
+      background-image: url(../images/red2.png)
     }
     #bottom_row_right {
       width: 224px;
