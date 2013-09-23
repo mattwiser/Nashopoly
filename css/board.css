@@ -21,7 +21,7 @@ nav ul {
     height: 224px;
     float: left;
     border: 2px solid black;
-    background-image: url(http://placekitten.com/224/224); }
+    background-image: url(../images/passgo2.jpg); }
   #board_full ul > li #top_row1 {
     width: 112px;
     height: 224px;
@@ -63,7 +63,7 @@ nav ul {
     height: 224px;
     float: right;
     border: 2px solid black;
-    background-image: url(http://placekitten.com/224/224); }
+    background-image: url(../images/jail2.jpg); }
   #board_full ul > li #first_row_left {
     width: 224px;
     height: 112px;
@@ -141,7 +141,7 @@ nav ul {
     height: 224px;
     float: left;
     border: 2px solid black;
-    background-image: url(http://placekitten.com/224/224); }
+    background-image: url(../images/goto2.jpg); }
   #board_full ul > li #bottom_row1 {
     width: 112px;
     height: 224px;
@@ -183,4 +183,4 @@ nav ul {
     height: 224px;
     float: right;
     border: 2px solid black;
-    background-image: url(http://placekitten.com/224/224); }
+    background-image: url(../images/freewifi2.jpg); }
