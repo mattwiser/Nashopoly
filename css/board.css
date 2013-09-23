@@ -6,11 +6,12 @@ nav ul {
   width: 1152px;
   height: 1152px;
   margin: 10px auto;
-  text-align: center; }
+  text-align: center;
+  position: relative; }
   #board_full #main_tile img {
     position: absolute;
-    left: 256px;
-    top: 647px;
+    left: 228px;
+    top: 228px;
     width: 696px;
     height: 696px; }
   #board_full ul > li .clear {
